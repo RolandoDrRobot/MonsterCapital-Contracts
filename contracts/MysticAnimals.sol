@@ -30,24 +30,24 @@ contract MysticAnimals is ERC721, ERC721Enumerable {
     mapping(uint256 => string) tokensImage;
     
     function fillTokensImages() private {
-        tokensImage[1] = 'https://gateway.ipfs.io/ipfs/QmX1y5gbRACafd1tV9knibjG4nXMaxmKDnk6kQVgmiGrjV';
-        tokensImage[2] = 'https://gateway.ipfs.io/ipfs/Qmb711ppmGxLJRf4p5QDqmcKSaJHE5V1L3uMEe8Fixs5LR';
-        tokensImage[3] = 'https://gateway.ipfs.io/ipfs/QmaLsvCwhxrYz28tgJK6uw3bmxNH5TTvGpEQSyN1BwS7ii';
-        tokensImage[4] = 'https://gateway.ipfs.io/ipfs/QmU9D1LirU1CexxPFHdx5kkz64ce5LqwDsDdDDY3xsC191';
-        tokensImage[5] = 'https://gateway.ipfs.io/ipfs/QmVrDuPaexW2s4Nmen7nrXgEYudyXDCMJ8xX8keNYNq31u';
-        tokensImage[6] = 'https://gateway.ipfs.io/ipfs/QmNWCHt6AqsQC31TREtRyfrGR7MhNc1f9X6X2p8cUCyFM2';
-        tokensImage[7] = 'https://gateway.ipfs.io/ipfs/QmenELgPAr58N31Mdw984sPgJ1H6UFfEfvnnmQyCxCCeDb';
-        tokensImage[8] = 'https://gateway.ipfs.io/ipfs/QmRRqPWza9WMYxrPYwdcfZsksXZC9cZnoR8ukdRJM1AXQJ';
-        tokensImage[9] = 'https://gateway.ipfs.io/ipfs/QmbToFkKsrHgbHEDazVvtSfgktkpZj7MecjoMyk8bDJ8VX';
-        tokensImage[10] = 'https://gateway.ipfs.io/ipfs/QmeFdVW22bB6Xz6X6XPP31VwVzRwcFbesrKTY7w8CW7VaR';
-        tokensImage[11] = 'https://gateway.ipfs.io/ipfs/QmSrgVTrrt4LtzoBFQgouDYpMc2jrd2jQ4fJrGJSkzYZwu';
-        tokensImage[12] = 'https://gateway.ipfs.io/ipfs/QmYjxBNPr5aUcNTF5Z2QGB17Hb9Qsmt7gexRDoHHQDuz49';
-        tokensImage[13] = 'https://gateway.ipfs.io/ipfs/QmSCB9eXEJNNS3CyVravBbeWKMzAyZVcqn9pRgsvrRkTMj';
-        tokensImage[14] = 'https://gateway.ipfs.io/ipfs/QmU91BxeTwQM5GwF684wjmwM4ucZq4KWMDsUkwX4pdhazu';
-        tokensImage[15] = 'https://gateway.ipfs.io/ipfs/QmQKbv7cohA8D1cufZfH5ntgH4tX7MxGMoz3AFWVb9VwjY';
+        tokensImage[0] = 'https://gateway.ipfs.io/ipfs/QmX1y5gbRACafd1tV9knibjG4nXMaxmKDnk6kQVgmiGrjV';
+        tokensImage[1] = 'https://gateway.ipfs.io/ipfs/Qmb711ppmGxLJRf4p5QDqmcKSaJHE5V1L3uMEe8Fixs5LR';
+        tokensImage[2] = 'https://gateway.ipfs.io/ipfs/QmaLsvCwhxrYz28tgJK6uw3bmxNH5TTvGpEQSyN1BwS7ii';
+        tokensImage[3] = 'https://gateway.ipfs.io/ipfs/QmU9D1LirU1CexxPFHdx5kkz64ce5LqwDsDdDDY3xsC191';
+        tokensImage[4] = 'https://gateway.ipfs.io/ipfs/QmVrDuPaexW2s4Nmen7nrXgEYudyXDCMJ8xX8keNYNq31u';
+        tokensImage[5] = 'https://gateway.ipfs.io/ipfs/QmNWCHt6AqsQC31TREtRyfrGR7MhNc1f9X6X2p8cUCyFM2';
+        tokensImage[6] = 'https://gateway.ipfs.io/ipfs/QmenELgPAr58N31Mdw984sPgJ1H6UFfEfvnnmQyCxCCeDb';
+        tokensImage[7] = 'https://gateway.ipfs.io/ipfs/QmRRqPWza9WMYxrPYwdcfZsksXZC9cZnoR8ukdRJM1AXQJ';
+        tokensImage[8] = 'https://gateway.ipfs.io/ipfs/QmbToFkKsrHgbHEDazVvtSfgktkpZj7MecjoMyk8bDJ8VX';
+        tokensImage[9] = 'https://gateway.ipfs.io/ipfs/QmeFdVW22bB6Xz6X6XPP31VwVzRwcFbesrKTY7w8CW7VaR';
+        tokensImage[10] = 'https://gateway.ipfs.io/ipfs/QmSrgVTrrt4LtzoBFQgouDYpMc2jrd2jQ4fJrGJSkzYZwu';
+        tokensImage[11] = 'https://gateway.ipfs.io/ipfs/QmYjxBNPr5aUcNTF5Z2QGB17Hb9Qsmt7gexRDoHHQDuz49';
+        tokensImage[12] = 'https://gateway.ipfs.io/ipfs/QmSCB9eXEJNNS3CyVravBbeWKMzAyZVcqn9pRgsvrRkTMj';
+        tokensImage[13] = 'https://gateway.ipfs.io/ipfs/QmU91BxeTwQM5GwF684wjmwM4ucZq4KWMDsUkwX4pdhazu';
+        tokensImage[14] = 'https://gateway.ipfs.io/ipfs/QmQKbv7cohA8D1cufZfH5ntgH4tX7MxGMoz3AFWVb9VwjY';
     }
 
-    constructor(uint256 _maxSupply) ERC721("MysticAnimals", "MYSANI") {
+    constructor(uint256 _maxSupply) ERC721("Mystic Animals", "MYSANI") {
         maxSupply = _maxSupply;
         fillTokensImages();
     }
