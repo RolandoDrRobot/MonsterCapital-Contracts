@@ -16,7 +16,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 import "./Base64.sol";
 
-contract MysticAnimals is ERC721, ERC721Enumerable {
+contract TribeMasks is ERC721, ERC721Enumerable {
     // State variable
     using Counters for Counters.Counter;
     // The we set the counter variable as private
@@ -68,9 +68,8 @@ contract MysticAnimals is ERC721, ERC721Enumerable {
     }
 
     // _safeMint already comes with 721 BUT It is a private function, so we create this mint function as a security layer
-    // The challange here!!! is to make this mint payable papiii 
     function mint() public virtual payable {
-        require(msg.value >= 1, "Not enough ETH sent; check price!");
+        require(msg.value >= 10000000000000000, "Not enough ETH sent; check price!");
         // .current() comes in Counter
         uint256 current = _idCounter.current();
         // Then validate the maxSupply so we no create more of what is expected

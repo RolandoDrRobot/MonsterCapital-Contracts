@@ -14,12 +14,12 @@ async function main() {
   // await hre.run('compile');
 
   // We get the contract to deploy
-  const MysticAnimals = await hre.ethers.getContractFactory("Tribe");
-  const mysticAnimals = await MysticAnimals.deploy(30);
+  const TribeMasks = await hre.ethers.getContractFactory("TribeMasks");
+  const tribemasks = await TribeMasks.deploy(30);
 
-  await mysticAnimals.deployed();
+  await tribemasks.deployed();
 
-  console.log("Tribe Masks deployed to:", mysticAnimals.address);
+  console.log("Tribe Masks deployed to:", tribemasks.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
