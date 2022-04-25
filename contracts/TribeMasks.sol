@@ -69,7 +69,8 @@ contract TribeMasks is ERC721, ERC721Enumerable {
 
     // _safeMint already comes with 721 BUT It is a private function, so we create this mint function as a security layer
     function mint() public virtual payable {
-        require(msg.value >= 10000000000000000, "Not enough ETH sent; check price!");
+        uint nftPrice = 0.001 ether;
+        require(msg.value >= nftPrice, "Not enough ETH sent; check price!");
         // .current() comes in Counter
         uint256 current = _idCounter.current();
         // Then validate the maxSupply so we no create more of what is expected

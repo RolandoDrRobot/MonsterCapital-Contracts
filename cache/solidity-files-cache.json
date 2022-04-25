@@ -665,8 +665,8 @@
       ]
     },
     "/Users/rolo/Projects/RoloToken-Contracts/contracts/TribeMasks.sol": {
-      "lastModificationDate": 1650345334451,
-      "contentHash": "7eb8ef11a8d8d368a3403e38770e990f",
+      "lastModificationDate": 1650494489579,
+      "contentHash": "02e1fbda9146e6d4aa05223205ee2df1",
       "sourceName": "contracts/TribeMasks.sol",
       "solcConfig": {
         "version": "0.8.0",
