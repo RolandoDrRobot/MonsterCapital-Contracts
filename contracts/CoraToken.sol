@@ -11,8 +11,8 @@ contract CoraToken is ERC20, Ownable {
   mapping(address => uint256) internal stakes;
   mapping(address => uint256) internal rewards;
 
-  constructor(address _owner, uint256 _supply) ERC20("CoraToken", "CORA") public {
-    _mint(_owner, _supply);
+  constructor(uint256 _supply) ERC20("CoraToken", "CORA") {
+    _mint(msg.sender, _supply);
   }
 
 
