@@ -2,14 +2,14 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/rolo/Projects/RoloToken-Contracts/contracts/Base64.sol": {
-      "lastModificationDate": 1648790534420,
+      "lastModificationDate": 1650927480528,
       "contentHash": "32d4e24360f022379ce022c950e13e80",
       "sourceName": "contracts/Base64.sol",
       "solcConfig": {
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -37,14 +37,14 @@
       ]
     },
     "/Users/rolo/Projects/RoloToken-Contracts/contracts/MysticAnimals.sol": {
-      "lastModificationDate": 1649049634366,
+      "lastModificationDate": 1650927478843,
       "contentHash": "89338a14ea8550db940cf82a5a33c9cb",
       "sourceName": "contracts/MysticAnimals.sol",
       "solcConfig": {
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -85,7 +85,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -128,7 +128,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -166,7 +166,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -201,7 +201,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -236,7 +236,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -273,7 +273,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -308,7 +308,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -345,7 +345,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -380,7 +380,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -415,7 +415,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -452,7 +452,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -487,7 +487,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -524,7 +524,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -563,7 +563,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -598,7 +598,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -635,7 +635,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -667,14 +667,14 @@
       ]
     },
     "/Users/rolo/Projects/RoloToken-Contracts/contracts/TribeMasks.sol": {
-      "lastModificationDate": 1650494489579,
+      "lastModificationDate": 1650927495397,
       "contentHash": "02e1fbda9146e6d4aa05223205ee2df1",
       "sourceName": "contracts/TribeMasks.sol",
       "solcConfig": {
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -715,7 +715,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -752,7 +752,7 @@
         "version": "0.8.0",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
