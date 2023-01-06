@@ -1,7 +1,7 @@
 # 🪙⚡️ MonsterCapital-Contracts
 # 📗 Table of contents
 1. [What is this](#-what-is-this)
-2. [Features](#%EF%B8%8F-features)
+2. [Contracts](#%EF%B8%8F-contracts)
 3. [How to install](#%EF%B8%8F-how-to-install)
 4. [How to use](#%EF%B8%8F-how-to-use)
 4. [Improvements Ideas](#-improvements-ideas)
