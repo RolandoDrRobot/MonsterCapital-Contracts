@@ -8,7 +8,7 @@
 
 
 ## 🪙 What is this
-- These are the contracts for the coin CORA and NFTs for the community
+- These are the contracts for the Orbs and NFTs for the community
 - You can see how It looks [here](https://github.com/RolandoDrRobot/CoraToken-FrontEnd)
 - [Here](https://github.com/RolandoDrRobot/CoraToken-BackEnd) is the backend for this project
 
